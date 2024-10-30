@@ -1,0 +1,339 @@
+# Copyright (C) 2021 Kount Inc.
+# This file is distributed under the GPLv3.
+msgid ""
+msgstr ""
+"Project-Id-Version: Kount Fraud Prevention 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/kount-fraud-prevention\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-07-05T09:36:46+02:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.5.0\n"
+
+#. Plugin Name of the plugin
+msgid "Kount Fraud Prevention"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://kount.com/partners/woocommerce/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Turn on Kount’s industry-leading fraud protection to immediately reduce chargebacks and manual reviews, while increasing approval rates and revenue—without adding friction."
+msgstr ""
+
+#. Author of the plugin
+msgid "Kount Inc."
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://kount.com/"
+msgstr ""
+
+#: admin/class-kount-admin.php:396
+msgid "Enable Plugin"
+msgstr ""
+
+#: admin/class-kount-admin.php:397
+msgid "Merchant ID *"
+msgstr ""
+
+#: admin/class-kount-admin.php:402
+msgid "Payment Risk Assessment"
+msgstr ""
+
+#: admin/class-kount-admin.php:403
+msgid "Payment Workflow Mode"
+msgstr ""
+
+#: admin/class-kount-admin.php:404
+msgid "API Key *"
+msgstr ""
+
+#: admin/class-kount-admin.php:405
+msgid "ENS Callback URL"
+msgstr ""
+
+#: admin/class-kount-admin.php:406
+#: admin/class-kount-admin.php:415
+msgid "Website ID *"
+msgstr ""
+
+#: admin/class-kount-admin.php:407
+msgid "Order Cancellation Message *"
+msgstr ""
+
+#: admin/class-kount-admin.php:414
+#: admin/class-kount-admin.php:422
+msgid "Trusted Device"
+msgstr ""
+
+#: admin/class-kount-admin.php:420
+msgid "Account Login"
+msgstr ""
+
+#: admin/class-kount-admin.php:421
+msgid "Login API Key *"
+msgstr ""
+
+#: admin/class-kount-admin.php:427
+msgid "Select logs level"
+msgstr ""
+
+#: admin/class-kount-admin.php:428
+msgid "Logs delete duration (in days)"
+msgstr ""
+
+#: admin/partials/kount-admin-display.php:185
+msgid "Kount"
+msgstr ""
+
+#: admin/partials/kount-admin-display.php:188
+msgid "Settings saved."
+msgstr ""
+
+#: admin/partials/kount-admin-display.php:194
+msgid "A WooCommerce Extension"
+msgstr ""
+
+#: admin/partials/kount-admin-display.php:195
+msgid "Configuration Settings"
+msgstr ""
+
+#: admin/partials/kount-admin-display.php:238
+msgid "Documentation for implementing Kount with MFA (Multi-Factor Authorization)"
+msgstr ""
+
+#: admin/partials/kount-admin-display.php:239
+msgid "Documentation for implementing Trusted device"
+msgstr ""
+
+#: admin/partials/kount-admin-display.php:247
+msgid "Download log file"
+msgstr ""
+
+#: admin/partials/kount-admin-display.php:255
+msgid "Download file"
+msgstr ""
+
+#: constants/index.php:46
+msgid "RIS Score"
+msgstr ""
+
+#: constants/index.php:47
+msgid "RIS Response"
+msgstr ""
+
+#: constants/index.php:48
+msgid "RIS Response Reason"
+msgstr ""
+
+#: constants/index.php:49
+msgid "RIS Rules Triggered"
+msgstr ""
+
+#: constants/index.php:50
+msgid "Transaction ID (TRAN)"
+msgstr ""
+
+#: constants/index.php:52
+msgid "Persona Country (GEOX)"
+msgstr ""
+
+#: constants/index.php:53
+msgid "Data Country (DVCC)"
+msgstr ""
+
+#: constants/index.php:54
+msgid "Data Collector Present (KAPT)"
+msgstr ""
+
+#: constants/index.php:55
+msgid "Cards associated with Persona (CARDS)"
+msgstr ""
+
+#: constants/index.php:56
+msgid "Emails associated with Persona (EMAILS)"
+msgstr ""
+
+#: constants/index.php:57
+msgid "Device associated with Persona (DEVICES)"
+msgstr ""
+
+#: constants/index.php:66
+msgid "Order ID required."
+msgstr ""
+
+#: constants/index.php:67
+msgid "Data not found"
+msgstr ""
+
+#: constants/index.php:68
+msgid "Authorization failed."
+msgstr ""
+
+#: constants/index.php:165
+msgid "Kount login decision"
+msgstr ""
+
+#: constants/index.php:166
+msgid "Kount login response not received"
+msgstr ""
+
+#: constants/index.php:167
+msgid "Kount login failed response"
+msgstr ""
+
+#: constants/index.php:168
+msgid "User not authenticate."
+msgstr ""
+
+#: constants/index.php:169
+msgid "Device data collector"
+msgstr ""
+
+#: constants/index.php:170
+msgid "DDC URL"
+msgstr ""
+
+#: constants/index.php:171
+msgid "Missing required request fields."
+msgstr ""
+
+#: constants/index.php:173
+msgid "API response"
+msgstr ""
+
+#: constants/index.php:175
+msgid "Missing request parameter. Please pass request parameter in array format."
+msgstr ""
+
+#: constants/index.php:176
+msgid "Login functionality is off."
+msgstr ""
+
+#: constants/index.php:177
+msgid "Stepup challenge called successful."
+msgstr ""
+
+#: constants/index.php:178
+msgid "Stepup challenge failed."
+msgstr ""
+
+#: constants/index.php:179
+msgid "Trusted device added successfully"
+msgstr ""
+
+#: constants/index.php:180
+msgid "Trusted device not added."
+msgstr ""
+
+#: constants/index.php:181
+msgid "Trusted device is off."
+msgstr ""
+
+#: constants/index.php:182
+msgid "RIS response order id"
+msgstr ""
+
+#: constants/index.php:183
+msgid "Order not found."
+msgstr ""
+
+#: constants/index.php:184
+msgid "Invalid order ID."
+msgstr ""
+
+#: constants/index.php:185
+msgid "Order status updated"
+msgstr ""
+
+#: constants/index.php:186
+msgid "Order note added"
+msgstr ""
+
+#: constants/index.php:187
+msgid "Generated order note"
+msgstr ""
+
+#: constants/index.php:192
+msgid "RIS details updated on order"
+msgstr ""
+
+#: constants/index.php:194
+msgid "Payment status"
+msgstr ""
+
+#: constants/index.php:195
+msgid "Post auth call successfully"
+msgstr ""
+
+#: constants/index.php:196
+msgid "Pre auth call successfully"
+msgstr ""
+
+#: constants/index.php:197
+msgid "Post auth call failed"
+msgstr ""
+
+#: constants/index.php:198
+msgid "Pre auth call failed"
+msgstr ""
+
+#: constants/index.php:202
+msgid "Admin setting saved successfully."
+msgstr ""
+
+#: constants/index.php:203
+msgid "Admin setting updated successfully."
+msgstr ""
+
+#: constants/index.php:204
+#: uninstall.php:87
+msgid "Validation request failed"
+msgstr ""
+
+#: constants/index.php:205
+#: uninstall.php:90
+msgid "Internal server error"
+msgstr ""
+
+#: constants/index.php:206
+msgid "API URL"
+msgstr ""
+
+#: constants/index.php:207
+msgid "Method"
+msgstr ""
+
+#: constants/index.php:210
+msgid "Order response from ENS"
+msgstr ""
+
+#: constants/index.php:211
+msgid "Notes update from ENS"
+msgstr ""
+
+#: constants/index.php:269
+msgid "kount_RIS_response"
+msgstr ""
+
+#: includes/class-kount-activator.php:56
+#: includes/class-kount-activator.php:57
+msgid "Please install WooCommerce before using this plugin"
+msgstr ""
+
+#: includes/class-kount-settings.php:176
+msgid "Order has been cancelled"
+msgstr ""
+
+#: services/kfpwoo-login-risk-inquiry.php:213
+msgid "Unable to login."
+msgstr ""
+
+#: uninstall.php:84
+msgid "Admin settings deleted successfully."
+msgstr ""
